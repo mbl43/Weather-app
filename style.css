@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+ background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+ background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);}
+
+
+.weather {
+    
+    display: flex;
+    justify-content: center;
+     color: whitesmoke;
+      
+}
+.weather >div
+{
+    margin: 0 5px;
+    font-size: 2rem;
+}
+.weather1 {
+    font-size: 2rem;
+
+}
+
+.weather p {
+    font-size: 2rem;
+}
+
+.weather span {
+    font-size: 0.9rem;
+}
+
+.weather3 span {
+    font-size: 1rem;
+}
+.weather3 img{
+    width: 1.8rem;
+}
+
+nav {
+    height: 100px;
+    box-shadow: 1px 1px 20px 1px black;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px 70px 0 0;
+    padding: 20px;
+}
+
+nav form {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    width: 70%;
+
+}
+
+nav form input {
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+    width: 95%;
+    padding: 5px 0;
+    border-bottom: 2px solid white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+form button {
+    cursor: pointer;
+    background-color: rgb(91, 88, 255);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    color: white;
+    font-size: large;
+}
