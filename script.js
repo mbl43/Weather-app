@@ -31,7 +31,7 @@ const fetchData = async (x) => {
    }
 };
 function updateDom(temperature, cityname, emojiname, condition, dateinfo) {
-  temp.innerText = temperature;
+  temp.innerText = temperature+"°";
   city.innerText = cityname;
   emoji.src = emojiname;
   info.innerText = condition;
